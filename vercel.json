@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/process-payment.js": {
-      "maxDuration": 10
-    }
-  },
   "headers": [
     {
       "source": "/api/(.*)",
@@ -15,3 +10,4 @@
     }
   ]
 }
+```
