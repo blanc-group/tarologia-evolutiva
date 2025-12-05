@@ -4,9 +4,6 @@
       "maxDuration": 10
     }
   },
-  "env": {
-    "STRIPE_SECRET_KEY": "@stripe-secret-key"
-  },
   "headers": [
     {
       "source": "/api/(.*)",
