@@ -79,11 +79,3 @@ module.exports = async (req, res) => {
   }
 };
 ```
-
-### **COMMIT il file con messaggio:** "Ripristino codice Stripe con correzioni"
-
----
-
-## ✅ **DOPO IL DEPLOY, TESTA:**
-```
-https://tarologia-evolutiva.vercel.app/api/process-payment
