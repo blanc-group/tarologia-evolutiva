@@ -1,0 +1,16 @@
+{
+  "name": "tarocchi-payment-server",
+  "version": "1.0.0",
+  "description": "Server di pagamento Stripe per Guida Tarocchi",
+  "main": "api/process-payment.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "stripe": "^14.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
